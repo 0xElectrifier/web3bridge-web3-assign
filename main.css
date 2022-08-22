@@ -1,4 +1,4 @@
-#top {
+#header {
   background: rgba(0, 0, 0, 0.847);
   background-clip: border-box;
 }
@@ -25,7 +25,7 @@ main {
   color: white;
   text-decoration: none;
 }
-#work {
+#top {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   padding: 2rem 0 3rem;
   text-align: center;
@@ -59,25 +59,28 @@ main {
   margin: 0 auto 20px;
   padding: 0 1rem;
 }
-.intro__more {
-  background: rgba(214, 73, 7, 0.847);
+.button {
+  background: rgba(6, 133, 155, 0.808);
   border-radius: 3px;
   color: black;
   display: inline-block;
+  margin: 1rem 0;
   padding: 0.75rem;
   text-decoration: none;
 }
-#portfolio {
+#work {
   background: rgba(0, 0, 0, 0.1);
-  height: 300rem;
-  padding-top: 3rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  /* height: 300rem; */
+  padding: 3rem 0;
   text-align: center;
   /* width: 3rem; */
 }
 .guide-heading {
   margin: 0 0 1rem;
 }
-.guide-info {
+.brief {
+  color: rgba(0, 0, 0, 0.705);
   margin: 0;
   padding: 0 1rem;
 }
@@ -89,7 +92,7 @@ main {
   /* display: inline-block; */
   width: 60%;
   max-width: 15rem;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   padding: 1rem;
 }
 .fa-extension {
@@ -97,6 +100,11 @@ main {
   font-size: 3rem;
 }
 
+#portfolio {
+  height: 300rem;
+  padding: 3rem 0;
+  text-align: center;
+}
 @media (min-width: 40rem) {
   body {
     padding: 2rem;
@@ -104,7 +112,7 @@ main {
   .nav--item {
     margin: 0 1rem;
   }
-  #work {
+  #top {
     text-align: left;
   }
   .my-pic__div {
