@@ -87,6 +87,7 @@ main,
 }
 .brief {
   color: rgba(0, 0, 0, 0.705);
+  font-weight: 500;
   margin: 0;
   padding: 0 1rem;
 }
@@ -97,16 +98,19 @@ main,
   background: white;
   width: 60%;
   max-width: 15rem;
-  margin: 1.5rem 3rem;
+  margin: 1.5rem auto;
   padding: 1rem;
 }
-.work-item > .brief {
-  font-weight: 300;
+.work-item > .guide-heading{
+  font-size: 1.2rem;
 }
 .fa-extension {
   color: rgba(214, 73, 7, 0.847);
   font-size: 3rem;
   margin: 1rem 0;
+}
+.emo{
+  color: black;
 }
 
 #portfolio {
@@ -116,7 +120,7 @@ main,
   text-align: center;
 }
 .boxes {
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   text-align: center;
 }
 .box-media {
@@ -262,11 +266,9 @@ main,
     vertical-align: top;
     width: 30%;
   }
-  .work-item > p {
-  }
-  .work-item > h3 {
-    height: 2rem;
-  }
+  .work-item > .icode{
+  font-size: 1.4rem;
+}
   .boxes {
     margin: 1.5rem 4rem;
   }
