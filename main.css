@@ -282,7 +282,7 @@ main,
     padding: 0;
   }
   .brief {
-    font-size: 1rem !important;
+    font-size: 0.75rem;
   }
   .work-items {
     display: flex;
