@@ -31,6 +31,10 @@ main,
   color: white;
   text-decoration: none;
 }
+.nav--item__link:hover,
+.nav--item__link:active {
+  color: rgba(43, 15, 201, 0.973);
+}
 #top {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
   padding: 2rem 0 3rem;
@@ -67,7 +71,7 @@ main,
 }
 .button {
   background: rgba(28, 183, 211, 0.808);
-  border-radius: 3px;
+  border-radius: 5px;
   color: rgba(0, 0, 0, 0.9);
   display: inline-block;
   font-family: "Ubuntu", sans-serif;
@@ -75,6 +79,12 @@ main,
   margin: 1rem 0;
   padding: 0.75rem;
   text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgba(214, 73, 7, 0.847);
+  color: white;
 }
 #work {
   background: rgba(0, 0, 0, 0.1);
@@ -101,7 +111,7 @@ main,
   margin: 1.5rem auto;
   padding: 1rem;
 }
-.work-item > .guide-heading{
+.work-item > .guide-heading {
   font-size: 1.2rem;
 }
 .fa-extension {
@@ -109,7 +119,7 @@ main,
   font-size: 3rem;
   margin: 1rem 0;
 }
-.emo{
+.emo {
   color: black;
 }
 
@@ -158,11 +168,9 @@ main,
 }
 
 #contact {
-  /* background: rgb(90, 90, 90); */
   background-color: lightslategray;
   color: white;
-  /* height: 100rem; */
-  padding: 3rem 0;
+  padding: 3rem 8%;
   text-align: center;
 }
 #contact .brief {
@@ -223,14 +231,23 @@ main,
   margin: 0 2%;
   width: 7rem;
 }
+.reset:hover,
+.reset:active {
+  background-color: red;
+  color: #fcfcf1;
+}
 .footer-icons {
   display: flex;
   justify-content: space-around;
   padding: 0 20%;
 }
 .footer-icon {
-  color: rgba(54, 24, 9, 0.979);
-  /* margin: 0 2rem; */
+  color: rgba(48, 20, 6, 0.979);
+  font-size: 1.2rem;
+}
+.footer-icon:hover,
+.footer-icon:active {
+  color: rgba(43, 15, 201, 0.973);
 }
 @media (min-width: 40rem) {
   body {
@@ -266,9 +283,9 @@ main,
     vertical-align: top;
     width: 30%;
   }
-  .work-item > .icode{
-  font-size: 1.4rem;
-}
+  .work-item > .icode {
+    font-size: 1.4rem;
+  }
   .boxes {
     margin: 1.5rem 4rem;
   }
