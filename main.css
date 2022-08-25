@@ -75,7 +75,7 @@ main,
   color: rgba(0, 0, 0, 0.9);
   display: inline-block;
   font-family: "Ubuntu", sans-serif;
-  font-size: inherit;
+  font-size: 1rem;
   font-weight: 500;
   margin: 1rem 0;
   padding: 0.75rem;
@@ -98,6 +98,7 @@ main,
 }
 .brief {
   color: rgba(0, 0, 0, 0.705);
+  font-size: 1rem;
   font-weight: 500;
   margin: 0;
   padding: 0 1rem;
