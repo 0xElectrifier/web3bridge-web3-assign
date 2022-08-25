@@ -75,6 +75,7 @@ main,
   color: rgba(0, 0, 0, 0.9);
   display: inline-block;
   font-family: "Ubuntu", sans-serif;
+  font-size: inherit;
   font-weight: 500;
   margin: 1rem 0;
   padding: 0.75rem;
@@ -179,6 +180,9 @@ main,
 .form {
   margin: 0 auto;
   max-width: 40.32rem;
+  /* padding: 3rem; */
+}
+.form > .form-div {
   padding: 3rem;
 }
 .form-name,
@@ -224,12 +228,16 @@ main,
   /* height: 5rem; */
   /* resize: none; */
 }
+.button-s_r {
+  display: flex;
+  justify-content: space-around;
+  max-width: 21.9rem;
+  margin: 0 auto;
+}
 .submit,
 .reset {
   border: none;
-  font-family: "Ubuntu", Sans-Serif;
   margin: 0 2%;
-  width: 7rem;
 }
 .reset:hover,
 .reset:active {
