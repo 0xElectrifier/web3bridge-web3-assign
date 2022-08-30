@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fcfcf1;
   font-family: "Open Sans", sans-serif;
@@ -156,7 +160,7 @@ main,
 }
 .box > a {
   color: black;
-  /* display: inline-block; */
+  display: inline-block;
   text-decoration: none;
 }
 
