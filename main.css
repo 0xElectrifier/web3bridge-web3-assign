@@ -1,0 +1,319 @@
+body {
+  background: #fcfcf1;
+  font-family: "Open Sans", sans-serif;
+}
+#header {
+  background: rgba(0, 0, 0, 0.847);
+  background-clip: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+body {
+  margin: 0;
+  padding: 1.5rem 0.5rem;
+}
+main,
+#contact {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.nav--items {
+  list-style-type: none;
+  margin: 0 auto;
+  min-width: 12.5rem;
+  padding: 0.7rem 0.4rem;
+  text-align: center;
+}
+.nav--item {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.nav--item__link {
+  color: white;
+  text-decoration: none;
+}
+.nav--item__link:hover,
+.nav--item__link:active {
+  color: rgba(43, 15, 201, 0.973);
+}
+#top {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 2rem 0 3rem;
+  text-align: center;
+}
+.my-pic__div {
+  border-radius: 4px;
+  filter: grayscale(90%);
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 30%;
+  min-width: 6.25rem;
+  max-width: 20rem;
+}
+.my-pic {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 100%;
+}
+.intro {
+  padding-top: 0 1rem;
+  vertical-align: middle;
+}
+.intro__name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+.intro__info {
+  font-family: "Roboto", sans-serif;
+  max-width: 30.625rem;
+  margin: 0 auto 20px;
+  padding: 0 1rem;
+}
+.button {
+  background: rgba(28, 183, 211, 0.808);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgba(214, 73, 7, 0.847);
+  color: white;
+}
+#work {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 3rem 0;
+  text-align: center;
+}
+.guide-heading {
+  margin: 1rem 0;
+}
+.brief {
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 1rem;
+}
+.work-items {
+  margin: 20px auto;
+}
+.work-item {
+  background: white;
+  width: 60%;
+  max-width: 15rem;
+  margin: 1.5rem auto;
+  padding: 1rem;
+}
+.work-item > .guide-heading {
+  font-size: 1.2rem;
+}
+.fa-extension {
+  color: rgba(214, 73, 7, 0.847);
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.emo {
+  color: black;
+}
+
+#portfolio {
+  /* height: 300rem; */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 3rem 0;
+  text-align: center;
+}
+.boxes {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.box-media {
+}
+.box {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  width: 60%;
+  min-width: 98px;
+  /* max-width: 254px; */
+}
+@media (max-width: 40rem) {
+  .box {
+    max-width: 14rem;
+  }
+}
+.box > a {
+  color: black;
+  /* display: inline-block; */
+  text-decoration: none;
+}
+
+.box img {
+  display: inline-block;
+  filter: grayscale(50%);
+  height: 11rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: contain;
+}
+
+#contact {
+  background-color: lightslategray;
+  color: white;
+  padding: 3rem 8%;
+  text-align: center;
+}
+#contact .brief {
+  color: rgb(0, 0, 0);
+}
+.form {
+  margin: 0 auto;
+  max-width: 40.32rem;
+  /* padding: 3rem; */
+}
+.form > .form-div {
+  padding: 3rem;
+}
+.form-name,
+.form-email,
+.form-subject,
+.form-message {
+  background-color: rgba(255, 255, 255, 0.733);
+  border-color: rgba(255, 255, 255, 0.733);
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  height: 2rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+}
+
+.form-message  {
+  height:auto;
+}
+.form .form-name_div {
+  display: flex;
+  justify-content: space-between;
+}
+.form-name,
+.form-email {
+  margin: 1%;
+  width: 46%;
+}
+.form-subject,
+.form-message {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+.form-name {
+  margin-left: 0;
+}
+.form-email {
+  margin-right: 0;
+}
+.form-message_div {
+  /* border: solid rgba(0, 0, 0, 0.527);
+  border-width: 0 0.1px; */
+  display: block;
+  margin-bottom: 1rem;
+  overflow-x: scroll;
+}
+.form-message {
+  /* height: 5rem; */
+  /* resize: none; */
+}
+.button-s_r {
+  display: flex;
+  justify-content: space-around;
+  max-width: 21.9rem;
+  margin: 0 auto;
+}
+.submit,
+.reset {
+  border: none;
+  margin: 0 2%;
+  cursor: pointer;
+}
+.reset:hover,
+.reset:active {
+  background-color: red;
+  color: #fcfcf1;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20%;
+}
+.footer-icon {
+  color: rgba(48, 20, 6, 0.979);
+  font-size: 1.2rem;
+}
+.footer-icon:hover,
+.footer-icon:active {
+  color: rgba(43, 15, 201, 0.973);
+}
+@media (min-width: 40rem) {
+  body {
+    padding: 2rem;
+  }
+  .nav--item {
+    margin: 0 1rem;
+  }
+  #top {
+    text-align: left;
+  }
+  .my-pic__div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .intro {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+  }
+  .intro__info {
+    margin-left: 0;
+    padding: 0;
+  }
+  .brief {
+    font-size: 0.75rem;
+  }
+  .work-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3rem;
+  }
+  .work-item {
+    display: inline-block;
+    margin: 1rem 1%;
+    vertical-align: top;
+    width: 30%;
+  }
+  .work-item > .icode {
+    font-size: 1.4rem;
+  }
+  .boxes {
+    margin: 1.5rem 4rem;
+  }
+  .box-media {
+    display: flex;
+  }
+  .box {
+    width: 31%;
+  }
+  .footer-icons {
+    padding: 0 30%;
+  }
+}
