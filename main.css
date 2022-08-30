@@ -196,6 +196,11 @@ main,
   font-family: "Ubuntu", sans-serif;
   height: 2rem;
   margin: 0.5rem 0;
+  padding: 0.3rem;
+}
+
+.form-message  {
+  height:auto;
 }
 .form .form-name_div {
   display: flex;
@@ -239,6 +244,7 @@ main,
 .reset {
   border: none;
   margin: 0 2%;
+  cursor: pointer;
 }
 .reset:hover,
 .reset:active {
